@@ -1,0 +1,66 @@
+body, html {
+    
+    /* Atur ketinggian hingga 100% untuk body dan HTML untuk memungkinkan background image menutupi seluruh halaman */
+    height: 100%;
+    /* Atur margin dan padding nya ke 0 (nol) */
+    margin: 0;
+    padding: 0;
+}
+.bgimg{
+
+    /* Background Image */
+    background: url(img/background.jpg);
+     /* Fullscreen / Layar penuh */
+    height: 100%;
+    /* posisikan background image pada bagian tengah */
+    background-position: center;
+    /* skala dan zoom dalam gambar */
+    background-size: cover;
+    /* Tambahkan posisi: relative untuk memungkinkan elemen posisi secara mutlak di dalam gambar (bagian teks) */
+    position: relative;
+    /* Tambahkan warna putih pada teks untuk semua elemen di dalam .bgimg container */
+    color: #fff;
+    /* Tambahkan jenis font */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* posisikan teks di bagian tengah */
+
+.middle{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Atur ukuran font, Tambahkan spasi, Atur karakter tebal/tipis dalam teks */
+
+h1{
+    /* Atur ukuran font untuk elemen h1 */
+    font-size: 40px;
+    /* Tambahkan spasi antara huruf */
+    letter-spacing: 30px;
+    /* Atur bagaimana karakter tebal atau tipis dalam teks harus ditampilkan */
+    font-weight: 100;
+}
+
+#demo {
+
+    /* Atur bagaimana karakter tebal atau tipis dalam teks harus ditampilkan */
+    font-weight: lighter;
+    /* Tambahkan spasi antara kata */
+    word-spacing: 20px;
+}
+
+hr {
+
+    /* Atur margin ke auto untuk menyelaraskan pusatnya */
+    margin: auto;
+    /* Atur lebarnya */
+    width: 80%;
+    /* Tambahkan border di sekitar hr */
+    border: 1.5px solid #fff;
+ }
